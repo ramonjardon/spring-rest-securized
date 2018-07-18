@@ -1,0 +1,22 @@
+dn: o=example
+objectClass: organization
+objectClass: extensibleObject
+objectClass: top
+o: example
+
+dn: ou=users,o=example
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: cn=n1111,ou=users,o=example
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: n1111
+sn: n1111
+uid: n1111
+mail: n1111@example.com
+userPassword: prueba
